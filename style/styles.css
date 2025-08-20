@@ -93,5 +93,40 @@ ul {
     border: none;   
 }
 
+.information-container {
+    text-align: center;
+    height: 70vh;
+}
 
+.information-header {
+    margin: 32px;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: solid 5px #3882f6;
+}
+
+.box-text {
+    font-size: 21px;
+    color: #5C6572;
+}
 
