@@ -147,6 +147,7 @@ ul {
     font-weight: 300;
     width: 800px;
     padding: 3px;
+    color: #1F2937;
 }
 
 cite {
@@ -154,4 +155,52 @@ cite {
     font-size: 24px;
     font-style: normal;
     margin-left: 500px;
+    color: #1F2937;
 }
+
+.signup-container {
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 55%;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.signup-left {
+    color: #fff;
+}
+
+.signup-right {
+    background-color: #3882f6;
+    font-size: 18px;
+    width: 8em;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: #fff;
+    border: solid 2px white;   
+}
+
+.signup-content {
+    color: #CCCFD4;
+}
+
+.signup-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
