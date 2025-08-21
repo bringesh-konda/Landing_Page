@@ -159,7 +159,7 @@ cite {
 }
 
 .signup-container {
-    height: 40vh;
+    height: 54vh;
 
     display: flex;
     align-items: center;
@@ -171,7 +171,7 @@ cite {
     align-items: center;
     justify-content: space-around;
     width: 70%;
-    height: 55%;
+    height: 42%;
     background-color: #3882f6;
     border-radius: 10px;
 }
@@ -196,11 +196,22 @@ cite {
 
 .signup-content {
     color: #CCCFD4;
+    font-size: 18px;
 }
 
 .signup-heading {
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 15vh;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
 
